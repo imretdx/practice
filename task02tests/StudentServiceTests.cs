@@ -41,14 +41,14 @@ public class StudentServiceTests
     {
         var result = _service.GetStudentsWithMinAverageGrade(4.8).ToList();
         Assert.Single(result);
-        Assert.Equal("Петр", result[0].Name); // Исправлено: берем первый элемент списка [0]
+        Assert.Equal("Петр", result[0].Name);
     }
 
     [Fact]
     public void GetStudentsOrderedByName_ReturnsSortedStudents()
     {
         var result = _service.GetStudentsOrderedByName().ToList();
-        Assert.Equal("Анна", result[0].Name); // Исправлено: проверяем алфавитный порядок по индексам
+        Assert.Equal("Анна", result[0].Name);
         Assert.Equal("Иван", result[1].Name);
         Assert.Equal("Петр", result[2].Name);
     }
