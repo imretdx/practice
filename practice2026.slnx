@@ -26,4 +26,6 @@
   <Project Path="task17tests/task17tests.csproj" />
   <Project Path="task18/task18.csproj" />
   <Project Path="task18tests/task18tests.csproj" />
+  <Project Path="task19/task19.csproj" />
+  <Project Path="task19tests/task19tests.csproj" />
 </Solution>
